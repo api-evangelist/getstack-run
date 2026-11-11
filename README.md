@@ -72,15 +72,113 @@ STACK provides security and accountability for AI agents. It issues scoped passp
 
 Everything profiled for STACK is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/getstack-run/](https://apis.io/providers/getstack-run/)** — or go straight to one of the APIs or properties below.
 
+### APIs (2)
+
+- [Stack API](https://apis.io/apis/getstack-run/stack-api/) — API documentation for STACK platform, covering CLI reference and getting started guides.
+- [STACK API](https://apis.io/apis/getstack-run/getstack-run-api/) — STACK API as documented publicly: 16 operations. Contract generated from the documentation by API Evangelist (2026-11-10); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetV1AuditResponse](https://apis.io/schemas/getstack-run/getstack-run-get-v1-audit-response/)
+- [GetV1ProxyUsageResponse](https://apis.io/schemas/getstack-run/getstack-run-get-v1-proxy-usage-response/)
+- [PostV1AgentsRegisterResponse](https://apis.io/schemas/getstack-run/getstack-run-post-v1-agents-register-response/)
+- [PostV1ProxyOperationsGetResponse](https://apis.io/schemas/getstack-run/getstack-run-post-v1-proxy-operations-get-response/)
+- [PostV1ScanResponse](https://apis.io/schemas/getstack-run/getstack-run-post-v1-scan-response/)
+- [PostV1TeamMembersResponse](https://apis.io/schemas/getstack-run/getstack-run-post-v1-team-members-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Getstack Run Context](https://apis.io/jsonld/getstack-run/getstack-run-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [STACK API Rules](https://apis.io/rules/getstack-run/getstack-run-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [STACK Authentication](https://apis.io/security/getstack-run/getstack-run-authentication/)
+- [STACK Domain Security](https://apis.io/security/getstack-run/getstack-run-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [STACK Plans Pricing](https://apis.io/plans/getstack-run/getstack-run-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [STACK Rate Limits](https://apis.io/rate-limits/getstack-run/getstack-run-rate-limits/)
+
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://getstack.run/)
+- [Documentation](https://getstack.run/docs)
+- [Getting started](https://getstack.run/docs/getting-started)
+- [API reference](https://getstack.run/docs/reference/cli)
+- [Pricing](https://getstack.run/pricing)
+- [Security](https://getstack.run/security)
+- [Terms of service](https://getstack.run/terms)
+- [Privacy policy](https://getstack.run/privacy)
 
 ## API Evangelist rating
 
-Not yet rated. See [apis.io/providers/getstack-run/](https://apis.io/providers/getstack-run/).
+**Kin Score 60.6** — strong · rubric 0.27.0 · scored 2026-11-10
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 56.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 46.8 |
+| Developer ergonomics | 47.6 |
+| Access clarity | 73.2 |
+
+**Agent readiness 44.1** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | documented (partial credit) |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | flavored (partial credit) |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/getstack-run/](https://apis.io/providers/getstack-run/).
 
 ## How this profile is made
 
